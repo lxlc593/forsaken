@@ -60,7 +60,7 @@ local function FartHubLoad()
 
 	task.spawn(function()
 		if executorname == "AWP" then
-			local folder, originalFile, tempFile = "FartHub", "FartHub/AmazingExecutor.mp3.Fart3", "FartHub/temp.mp3"
+			local folder, originalFile, tempFile = "FartHub", "lxlc/AmazingExecutor.mp3.Fart3", "lxlc/temp.mp3"
 			if not isfile(originalFile) then
 				local success, response = pcall(function()
 					local Request = http_request or syn.request or request
@@ -108,7 +108,7 @@ local function FartHubLoad()
 
 	setclipboard("https://linkunlocker.com/fartsaken-ZINXl")
 
-	local GUI = Rayfield:CreateWindow({
+	local GUI = cak:CreateWindow({
 		Name = "FartSaken",
 		Theme = "Default",
 		LoadingTitle = "lxlc",
@@ -223,12 +223,12 @@ local function FartHubLoad()
 
 		--Properties:
 
-		FartHubEmoteGUI.Name = "FartHubEmoteGUI"
+		FartHubEmoteGUI.Name = "lxlcEmoteGUI"
 		FartHubEmoteGUI.Parent = game:GetService("CoreGui")
 		FartHubEmoteGUI.ResetOnSpawn = false
 
 		Holder.Name = "Holder"
-		Holder.Parent = FartHubEmoteGUI
+		Holder.Parent = lxlcEmoteGUI
 		Holder.AnchorPoint = Vector2.new(0.5, 0.5)
 		Holder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Holder.BackgroundTransparency = 0.250
@@ -256,7 +256,7 @@ local function FartHubLoad()
 		FartsakLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		FartsakLogo.BorderSizePixel = 0
 		FartsakLogo.Size = UDim2.new(1, 0, 1, 0)
-		FartsakLogo.Image = "http://www.roblox.com/asset/?id=138949854455429"
+		FartsakLogo.Image = "http://www.roblox.com/asset/?id=135321950074333"
 
 		LogoUIC.Name = "LogoUIC"
 		LogoUIC.Parent = LogoFrame
