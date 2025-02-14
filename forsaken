@@ -111,8 +111,8 @@ local function FartHubLoad()
 	local GUI = Rayfield:CreateWindow({
 		Name = "FartSaken",
 		Theme = "Default",
-		LoadingTitle = "Fart Hub",
-		LoadingSubtitle = "meow meow meow meow meow meow",
+		LoadingTitle = "lxlc",
+		LoadingSubtitle = "good boy 🗣️",
 		Icon = "microwave",
 		Link = "https://github.com/ivannetta/ShitScripts/Forsaken",
 
@@ -122,12 +122,12 @@ local function FartHubLoad()
 		KeySystem = true,
 		KeySettings = {
 			Title = "Fartsaken Key System",
-			Subtitle = "im such a meowzer like meow meow",
+			Subtitle = "ldk",
 			Note = "Copied Link To Clipboard",
-			FileName = "FartHubKey",
+			FileName = "lxlcKey",
 			SaveKey = true,
 			GrabKeyFromSite = false,
-			Key = { "hi" }, -- this is very protected trust 😭
+			Key = { "Skibidi kid" }, -- cak 🗣️
 		},
 	})
 
